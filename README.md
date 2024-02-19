@@ -56,7 +56,7 @@ To configure this project you need to configure data in the `application.propert
 Set the database connection details such as URL, username, and password.
 Example:
 ```bash
-spring.datasource.url=jdbc:mysql://localhost:3306/survey_database
+spring.datasource.url=jdbc:postgresql://localhost:3306/survey_database
 spring.datasource.username=admin
 spring.datasource.password=admin123
 ```
